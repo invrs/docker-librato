@@ -12,6 +12,7 @@ docker run \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -e LIBRATO_EMAIL="" \
   -e LIBRATO_TOKEN="" \
+  -e LIBRATO_SOURCE="" \
   meteorhacks/docker-librato
 ```
 
@@ -21,6 +22,7 @@ docker run \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -e LIBRATO_EMAIL="" \
   -e LIBRATO_TOKEN="" \
+  -e LIBRATO_SOURCE="" \
   meteorhacks/docker-librato
 ```
 
@@ -33,6 +35,7 @@ docker run --privileged \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -e LIBRATO_EMAIL="" \
   -e LIBRATO_TOKEN="" \
+  -e LIBRATO_SOURCE="" \
   meteorhacks/docker-librato
 ```
 
