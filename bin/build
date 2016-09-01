@@ -1,0 +1,2 @@
+docker build -t quay.io/fullstackmedia/docker-librato .
+docker push quay.io/fullstackmedia/docker-librato
