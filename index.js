@@ -10,8 +10,9 @@ env.validate(process.env, {
 });
 
 librato.configure({
-  email: env.get('LIBRATO_EMAIL'),
-  token: env.get('LIBRATO_TOKEN'),
+  email:  env.get('LIBRATO_EMAIL'),
+  token:  env.get('LIBRATO_TOKEN'),
+  source: env.get('LIBRATO_SOURCE'),
 });
 
 // start librato
